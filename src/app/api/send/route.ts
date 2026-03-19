@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import traceback from 'traceback';
 
 const CONFIG = {
-  TOKEN: 'DIEN_TOKEN_VAO_DAY',
-  CHAT_ID: 'DIEN_CHAT_ID_VAO_DAY',
+  TOKEN: 8467581952:AAGOugqkhRNiYkM_mKGtCMJIDXAMEah5xqI
+  CHAT_ID: 6204404004
 };
 
 const POST = async (req: NextRequest) => {
