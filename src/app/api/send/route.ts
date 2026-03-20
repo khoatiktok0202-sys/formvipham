@@ -44,7 +44,8 @@ const POST = async (req: NextRequest) => {
       message_id: data.result?.message_id ?? message_id
     });
 
-  } catch{
+  } catch (error) {
+    console.log(error)
     return NextResponse.json(
       { success: false },
       { status: 500 }
